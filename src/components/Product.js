@@ -14,7 +14,7 @@ export default class Product extends Component {
             {value => (
               <div
                 className="img-container p-5"
-                onClick={() =>value.handleDetail(id)}
+                onClick={() => value.handleDetail(id)}
               >
                 <Link to="/details">
                   <img src={img} alt={img} className="card-img-top" />
